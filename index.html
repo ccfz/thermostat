@@ -5,32 +5,32 @@
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="src/thermostat.js"></script>
     <script src="interface.js"></script>
+    <link rel='stylesheet' type="text/css" href="reset.css"/>
     <link rel='stylesheet' type="text/css" href="stylesheet.css"/>
    
   </head>
   <body>
-  <section>
-  <div id="display">
-    <h1 id="temperature"></h1>
-        
-          <button  id='up'>+</button>
-          <button  id='down'>-</button>
-          <button  id='reset'>RESET</button>
-          <button  id='mode'>MODE ON/OFF</button>
-  
-          <section>
-            <h2> Current temperature: <span id="current_temperature"></span> </h2>
-            <h2> Current location: <span id="location"></span></h2>
-
-              <section>
-                <form id="select-city">
-                  <input id="current-city" type="text" placeholder="Enter a city">
-                  <input type="submit">
-                </form>
-              </section>
-          </section>
+      
+      <div class='controll'>
+        <button  id='up'>+</button>
+        <button  id='down'>-</button>
+        <button  id='reset'>RESET</button>
+        <button  id='mode'>MODE ON/OFF</button>
       </div>
-    </section>
 
+      <div id="display">
+        <h1 id="temperature"></h1>
+      </div>
+
+      <section id='extra'>
+        <h2> Current temperature: <span id="current_temperature"></span> </h2>
+        <h2> Current location: <span id="location"></span></h2>
+
+          
+            <form id="select-city">
+              <input id="current-city" type="text" placeholder="Enter a city">
+              <input type="submit">
+            </form>
+        </section>
   </body>
 </html>

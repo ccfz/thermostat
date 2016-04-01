@@ -4,16 +4,16 @@ $(document).ready(function() {
   var thermostat = new Thermostat();
 
 
-  function saveTemp (){
+  // function saveTemp (){
     
-    var url = 'http://localhost:4567/set'
-    $.post(url, {'degrees' : "4"});
-  }
+  //   var url = 'http://localhost:4567/set'
+  //   $.post(url, {'degrees' : "4"});
+  // }
 
   function updateTemperature() {
   $('#temperature').text(thermostat.currentTemperature());
   $('#display').attr('class', thermostat.energyUsage());
-  saveTemp();
+  // saveTemp();
   };
 
   function displayWeather(city) {

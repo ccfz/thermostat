@@ -1,37 +1,118 @@
-
-
-/* {
-  border:1px dashed red;
+/*@font-face{
+  font-family: 'Cyreal';
+  src: url(https://fonts.googleapis.com/css?family=Cyreal);
 }*/
 
-.low-usage {
-  position: absolute;
-  background-color: green;
-  width:300px; 
-  height:250px; 
-  margin:auto;
-  margin-top: 20%;
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          
 }
 
-.med-usage {
-  background-color:yellow;
-  width:300px; 
-  height:250px; 
-  margin:auto;
-  margin-top: 20%;
+body {
+  border:1px dashed green;
 }
 
-.high-usage {
-  background-color:red;
-  width:300px; 
-  height:250px; 
-  margin:auto;
-  margin-top: 20%;
+
+html {
+  background-image: url("http://widewallpaper.info/wp-content/uploads/2015/11/elements-wallpaper.png");
+  background-color: white;
+  max-width: 1500px;
+  background-size: cover;
+  color: white;
+  background-repeat: no-repeat;
+}
+
+html #display {
+
+
+  max-width:20em; 
+  height:10em; 
+  border-radius: 20%;
+  margin:0 auto;
+  margin-top: 1%;
+
+
+}
+ .controll {
+  max-width: 20em;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+
+/*  text-align: center;*/
+  
 }
 
 #temperature {
-  
-  top:50%;
-  left:50%;
+  font-family: Courier;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 5em;
+  margin-top:10%;
 
 } 
+
+
+.controll button {
+  border: 0.1em solid rgba(244, 244, 244, 0.9);
+  background-color: rgba(244, 244, 244, 0.3);
+  color:white;
+  font-weight:lighter;
+  font-size: 1em;
+  margin:1%,1%,1%,1%;
+  text-align: center;
+  padding:6, 6, 3, 3 px;
+}
+
+
+.low-usage {
+  
+  border: 5px solid rgba(47, 142, 46, 0.7);;
+  background-color: rgba(47, 142, 46, 0.3);
+
+}
+
+.med-usage {
+  border: 5px solid rgba(244, 244, 0, 0.7);
+  background-color: rgba(244, 244, 0, 0.3);
+
+}
+
+.high-usage {
+  border: 5px solid rgba(244, 0, 0, 0.7);
+  background-color: rgba(244, 0, 0, 0.3);
+
+}
+
+#extra {
+  position: relative;
+  margin-top: 50em;
+  max-width: 50em;
+  margin: auto;
+  margin-top: 22em;
+  margin-bottom: 5em;
+  text-align: center;
+  
+
+}
+#extra h2 {
+  position: relative;
+   font-family: Courier;
+   font-size: 2em;
+   display: inline-block;
+   margin-top: 0.5em;
+   
+}
+
+#extra input {
+  border: 0.1em solid rgba(244, 244, 244, 0.9);
+  background-color: rgba(244, 244, 244, 0.3);
+  color:white;
+  font-weight:lighter;
+  font-size: 2em;
+  margin-top: 0.5em;
+}
+
