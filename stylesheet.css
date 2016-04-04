@@ -11,14 +11,10 @@
           
 }
 
-body {
-  border:1px dashed green;
-}
-
 
 html {
   background-image: url("http://widewallpaper.info/wp-content/uploads/2015/11/elements-wallpaper.png");
-  background-color: white;
+  background-color: black;
   max-width: 1500px;
   background-size: cover;
   color: white;
